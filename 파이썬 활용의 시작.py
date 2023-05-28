@@ -21,7 +21,7 @@ class MidClass(Lineage): #다중 상속 가능함
     #2 파일사용법
     def useFile(self):
         print("[파일 사용법]")
-        fi=open("더미임포트.py","at+",encoding="utf-8") #r(읽기),w(쓰기),a(추가) 등이 있음
+        fi=open("더미임포트예제.py","at+",encoding="utf-8") #r(읽기),w(쓰기),a(추가) 등이 있음
         fi.seek(0) #위치설정(맨앞)
         print("모든 줄: {}".format(fi.read()))
         fi.seek(0)
