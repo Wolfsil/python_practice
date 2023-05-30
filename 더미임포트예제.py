@@ -8,3 +8,6 @@ def dummyHello():
 #이 부분은 메인으로 실행하지 않으면 작동되지 않음
 if __name__=="__main__":
     dummyHello()
+    ex()
+def ex():
+    pass

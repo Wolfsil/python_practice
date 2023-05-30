@@ -74,11 +74,20 @@ class ElementalClass:
 
         
          
-    #3. 로직 if, while, for, bool
+    #3. 로직 비교, if, while, for, bool
     def logic(self):
         print("[로직 사용법]")
         
+        #주소가 달라도 같은 값만 들어있으면 같은 값 취급, 값이 바뀌면 다른 취급
+        a=[1]
+        b=[1]
+        print(a==b)
+        a.append(2)
+        print(a==b)
+        print()
+        
         #다음과 같은 참거짓을 표현하는 자료형이 boolean이다
+        #복수개의 조건은 and or 을 이용가능
         if 10>10:
             print("10>10")
         elif 10==10:
@@ -86,6 +95,9 @@ class ElementalClass:
         else:
             print("10<10")
         print()
+        
+        
+
         
         #while문으로 [0,10) 세기
         count=0
